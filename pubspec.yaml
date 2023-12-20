@@ -1,0 +1,68 @@
+name: productive
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0-174.2.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.8
+  video_player: ^2.7.2
+  gap: ^3.0.1
+  pinput: ^3.0.1
+  smooth_page_indicator: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_bloc: any
+  provider: ^6.1.1
+  flutter_slidable: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/icons/
+    - assets/icons/global/
+    - assets/icons/onboard/
+    - assets/icons/tasks/
+    - assets/icons/all/
+    - assets/icons/upcoming/
+    - assets/logo/
+    
+    - assets/images/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Light.ttf
+        - asset: assets/fonts/Barlow-LightItalic.ttf
+        - asset: assets/fonts/Barlow-Thin.ttf
+        - asset: assets/fonts/Barlow-ThinItalic.ttf
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Italic.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+        - asset: assets/fonts/Barlow-MediumItalic.ttf
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+        - asset: assets/fonts/Barlow-SemiBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Bold.ttf
+        - asset: assets/fonts/Barlow-BoldItalic.ttf
+        - asset: assets/fonts/Barlow-ExtraBold.ttf
+        - asset: assets/fonts/Barlow-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Barlow-Black.ttf
+        - asset: assets/fonts/Barlow-BlackItalic.ttf
